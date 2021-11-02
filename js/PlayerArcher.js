@@ -11,6 +11,7 @@ class PlayerArcher {
     this.image = loadImage("./assets/playerArcher.png");
 
     World.add(world, this.body);
+
     Matter.Body.setAngle(this.body, -90); 
   }
 
